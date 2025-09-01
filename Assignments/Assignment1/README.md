@@ -1,5 +1,14 @@
-1.Basic Queries
-2.Filter Queries
-3.Join Queries with Group By and Having clauses
-4.Advance Queries 
-5.Sub-Queries
+## Database Structure
+
+**Authors**: Contains author information such as name, country, and birth year.
+**Books**: Contains book details including title, genre, price, stock, and links to authors.
+**Customers**: Stores customer information like name, email, join date, and country.
+**Orders**: Tracks book purchases, with details like customer, book, quantity, and total price.
+
+## What I Learned
+
+**Basic SQL Queries**: Selecting, filtering, and sorting data.
+**JOINs**: Combining data from multiple tables using INNER JOIN, LEFT JOIN.
+**Aggregations**: Using functions like SUM(), AVG(), and COUNT() to compute totals and averages.
+**Grouping & Filtering**: Working with GROUP BY and HAVING to analyze grouped data.
+**Subqueries**: Writing nested queries for more advanced data retrieval.
